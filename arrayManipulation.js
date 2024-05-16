@@ -5,4 +5,10 @@ function processArray (arr){
 }
 
 
+function formatArrayStrings (arrNumbers, arrStrings){
+    return arrStrings.map(
+         (str,i) => arrNumbers[i] % 2 === 0 ? str.UpperCase() : str.LowerCase()
+    );
+
+}
 
